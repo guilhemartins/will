@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+*
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-y: auto;
+
+}
+
+.SbBody
+{
+
+    font-size: 100%;
+    background:#FFF2E7;
+    padding-bottom: 110px;
+
+}
+
+.Cabecalho
+{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    background:  #2b2c2b;
+    margin-bottom: 20px;
+}
+
+.ImgLogo
+{
+    height: 50px;
+    width: 120px;
+    background-size: cover;
+}
+
+.Navegacao
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+.DivNav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.TextoNav
+{
+
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.TextoNav:hover
+{
+
+    color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
+
+}
+
+.Conteudo
+{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 6px;
+    border-top: 0.8px solid #FFF2E7;
+
+}
+
+.DivSec
+{
+    background: #90EE90;
+    width: 80%;
+    border-radius: 30px;
+    align-content: center;
+
+}
+
+.Section
+{  
+    
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.ItemConteudo
+{
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.SectTitulo
+{
+
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.ConteudoTextoPadrao
+{
+
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.ButtonLer
+{
+
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow:5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color:#2F2325;
+
+}
+
+.ButtonLer:hover
+{
+
+    background-color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
+
+}
+
+.ImgConteudo
+{
+
+    height: 160px;
+    width: 195px;
+    background-color: #FFF2E7;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+
+}
+
+.ImgConteudo2
+{
+
+    height: 160px;
+    width: 195px;
+    background-color: #FFF2E7;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+
+}
+
+.Rodape
+{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background:  #2b2c2b;
+    font-family: 'Sarala', sans-serif;
+    text-align: center;
+    color: #FFF2E7;
+}
+
+.TextoSobre
+{
+
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+
+}
+
+.SubTitulo
+{
+
+    font-family: 'Sarala', sans-serif;
+    background-color: 	#696969;
+    color: #FFF2E7;
+    border-radius: 4px;
+
+}
+
+.Cabecalho2
+{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background:  #228B22;
+
+}
+
+.DivSec2
+{
+    display: flex;
+    background: #90EE90;
+    width: 60%;
+    border-radius: 30px;
+    flex-direction: column;
+    
+
+}
+
+.SbBody2
+{
+
+    font-size: 100%;
+    background:#FFF2E7;
+    padding-bottom: 90px;
+
+}
+
+.SectTitulo2
+{
+    
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+    background: #1C1C1C;
+    margin-bottom: 10px;
+
+}
+
+.ItemConteudo2
+{
+
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.Tab
+{
+    font-family: 'Sarala', sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+}
+.Th
+{ 
+    font-weight: 100;
+    text-align: center;
+    padding-right: 50px;
+    background-color: #0f0f0f;
+    color: white;
+}
+.Thl
+{
+    font-weight: 100;
+    text-align: center;
+    border-top-left-radius: 6px;
+    background-color: #0f0f0f;
+    color: white;
+}
+.Thr
+{
+    font-weight: 100;
+    text-align: center;
+    border-top-right-radius: 6px;
+    background-color: #0f0f0f;
+    color: white;
+}
+.td
+{
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: gainsboro;
+}
+.td2
+{
+    background-color: gainsboro;
+}
+.Buttons
+{
+    margin: 10px;
+    padding: 1px 1px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-weight: 600;
+    background-color: darkgreen;
+    color: white;
+    text-transform: uppercase;
+    transition: background 1s;
+    border: transparent;
+
+}
+.Buttons:hover
+{
+    background-color: rgb(3, 190, 3);
+    cursor: pointer;
+}
+.ButtonsB
+{
+    padding: 1px 1px;
+    margin-right: 5px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-weight: 600;
+    background-color: darkred;
+    color: white;
+    text-transform: uppercase;
+    transition: background 1s;
+    border: transparent;
+}
+.ButtonsB:hover
+{
+    background-color: rgb(235, 0, 0);
+    cursor: pointer;
+}
+.ButtonsA
+{
+    padding: 1px 1px;
+    margin-right: 5px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-weight: 600;
+    background-color: rgb(71, 71, 182);
+    color: white;
+    text-transform: uppercase;
+    transition: background 1s;
+    border: transparent;
+}
+.ButtonsA:hover
+{
+    background-color: rgb(125, 125, 255);
+    cursor: pointer;
+}
+.edit
+{
+    width: 25px;
+    height: 25px;
+}
+.excluir
+{
+    width: 25px;
+    height: 25px;
+}
+.add
+{
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+.Senha
+{
+    border-radius: 20px;
+    border: transparent;
+}
+.Login
+{
+    margin: auto;
+    background-color: black;
+    border: black 1px solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.DivForm
+{
+    text-align: right;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BtnLogin
+{
+    
+    padding: 10px 32px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-weight: 450;
+    background-color: rgb(0, 247, 0);
+    color: white;
+    text-transform: uppercase;
+    transition: background 1s;
+    border: transparent;
+}
+.BtnLogin:hover
+{
+    background-color: rgb(23, 155, 6);
+    cursor: pointer;
+}
+.TituloCLT
+{
+    text-align: center;
+}
+.AddCl
+{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    padding-bottom: 5px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 58%;
+}
+
+
+.Section01
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.ImgConfig
+{
+    height: 25px;
+    width: 25px;
+}
